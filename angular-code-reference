@@ -1,0 +1,26 @@
+Angular 
+——————
+Should install npm  and node  check version node -v rpm -v
+
+Create one folder and go to that location and start below
+Sudo npm install -g @angular/cli
+Ng version 
+
+For create the project -> ng new project_name
+If got failed —>sudo npm cache clean --force   
+Then create the project
+For giving permission for directoy-> sudo chmod -R a+rwx proj1
+
+ng g c comp
+
+ng g m modu
+
+<button (click)="getname(myName)"> tst</button>
+
+ myName='PORAYAR'
+  getname(name:string){
+    alert(name)
+  }
+
+
+
